@@ -9,6 +9,8 @@ app.use(express.json());
 
 // Routes para mis peticiones
 const productsRoutes = require("./routes/products.routes");
+
+// Realmente esto no se que es pero vamos a buscar que pedo Haha //
 const { body } = require("express-validator");
 
 // Los middleware
